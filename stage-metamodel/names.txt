@@ -1,0 +1,27 @@
+**Model name**
+- Stage model: стадийная модель, модель этапов
+- Alternatives: pipeline (конвейер), chain (цепочка), sequence (последовательность)
+
+**Stage**
+- Alternatives: phase (фаза), step (шаг), leg (отрезок)
+- Base: этап
+
+**Name**
+- Alternatives: title (заголовок), label (метка), handle (обозначение)
+- Base: название
+
+**Description**
+- Alternatives: summary (краткое описание), gist (суть), essence (сущность)
+- Base: описание
+
+**Inputs**
+- Alternatives: intake (приём), entry (вход), starting material (исходные материалы)
+- Base: входы
+
+**Outputs**
+- Alternatives: yield (выход), result (результат), product (продукт)
+- Base: выходы
+
+**Internals**
+- Alternatives: scaffolding (строительные леса), workings (механика), toolkit (инструментарий)
+- Base: внутренности, внутреннее устройство

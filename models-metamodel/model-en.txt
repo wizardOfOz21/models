@@ -1,0 +1,27 @@
+# Metamodel of models
+
+## Short description
+Describes what every model in the framework must contain. It is itself a model, so it follows its own rules.
+
+## Full description
+Every model in the framework consists of the following parts:
+
+- **Name.** The model's term: one or two words that capture its main idea. Alternatives are listed so the best-sounding one can be chosen.
+- **Short description.** One or two sentences on what the model is about.
+- **Full description.** The complete account of the model: its parts, how they relate, and how it works.
+- **Key concepts.** The purpose of the model. They answer why the model is needed: which entities it covers, which relations or mechanisms it represents, and what is specific about it compared with other models.
+- **Implementation tips.** Optional hints for representing the model in practice, such as file names if it is stored as files in a folder. They are not part of the model's essence, but they make it easier to adopt and understand for other people.
+
+### Self-application
+This metamodel is itself a model, so it is described by its own rules: it has a name, a short description, a full description, key concepts and implementation tips. It sits at a higher level of abstraction than the models it describes, but that level is not a property that models record about themselves. It is the intention behind the metamodel: to be a model whose subject is models, including itself.
+
+## Key concepts
+- Every model has the same set of parts, so any model can be read in the same way.
+- The metamodel applies to itself, which keeps the framework consistent and self-explanatory.
+- Names are terms, and each term has alternatives to choose from.
+
+## Implementation tips
+- Store each model in its own folder.
+- Put the definition of the model in model.txt, written in Markdown.
+- Put the actual implementation tips for that model in tips.txt.
+- The same file layout is used for every model, including this one.

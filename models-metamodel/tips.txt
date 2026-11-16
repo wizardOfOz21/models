@@ -1,0 +1,23 @@
+### Folder and file representation
+- Keep all models together in one models folder, so related models stay close to each other.
+- Give each model its own folder, named after the model, in kebab-case. The wording is free, so use whatever you like.
+- Inside a model's folder, use these files:
+- model.txt: the model itself, written in Markdown. Required.
+- names.txt: the alternatives for the model's terms. Optional.
+- tips.txt: the implementation tips for that model. Optional.
+- If a model is complex, like the metamodel of models, you can add variants of the model file, such as a root version or translations into other languages, for example model-ru.txt for Russian.
+- The same layout applies to every model, including this one.
+
+### Example folder tree
+
+models/
+├── metamodel-of-models/
+│ 	├── model.txt
+│ 	├── model-ru.txt
+│ 	├── names.txt
+│ 	└── tips.txt
+├── stage-metamodel/
+│ 	├── model.txt
+│ 	└── names.txt
+└── request-to-delivery-model/
+	└── model.txt

@@ -1,0 +1,19 @@
+Model name
+
+Request-to-delivery model (модель «от запроса до поставки»)
+Alternatives: commission model (модель поручения), craft model (модель ремесла), frame-and-deliver model (модель «осмыслить и сдать»), specified-form model (модель заданной формы)
+
+Framing
+
+Alternatives: scoping (определение границ), interpreting (истолкование), briefing (постановка), grasping (схватывание)
+Base: осмысление
+
+Working
+
+Alternatives: making (изготовление), crafting (выделка), doing (выполнение), building (построение)
+Base: работа
+
+Delivering
+
+Alternatives: handover (передача), submission (сдача), shipping (отгрузка), presenting (представление)
+Base: сдача

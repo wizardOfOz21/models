@@ -1,0 +1,32 @@
+Request-to-delivery model
+
+An instance of the stage metamodel. It describes how a loosely given request becomes a deliverable in a required form, in three stages.
+
+Key concepts
+
+The request arrives raw. Turning it into something you can act on is real work, and it gets its own stage.
+The result is delivered to someone, in a form requested in advance. That form is dictated from outside and may be awkward for the work itself, so the working form and the delivered form are allowed to differ.
+Internals of the working stage are scaffolding. They exist only there and disappear at delivery.
+
+Framing
+
+Description: turning the request as given into something you can act on.
+Inputs: the request, plus any source material.
+Outputs: a clear picture of what is needed, and a plan.
+Internals: notes, questions, assumptions, a map of the material.
+
+Working
+
+Description: doing the actual work, in whatever form suits the person doing it.
+Inputs: the picture and the plan.
+Outputs: the result in working form.
+Internals: the working representation, such as splitting into parts, drafts, experiments.
+
+Delivering
+
+Description: converting the working form into the required form and handing it over.
+Inputs: the result in working form, and the requested form.
+Outputs: the deliverable.
+Internals: assembly, cleanup, a final check against the requested form.
+
+Links: framing leads to working, which leads to delivering.

@@ -1,0 +1,14 @@
+**Stage metamodel**
+
+A stage model describes work as a chain of stages, each handing its result to the next.
+
+**Stage.** Every stage has five parts:
+- Name: one or two words capturing the main idea, ideally an activity, like understanding, building, delivering.
+- Description: a short sentence on what the stage is about.
+- Inputs: what exists before the stage. There can be several.
+- Outputs: what exists after the stage. There can be several.
+- Internals: everything that lives only inside the stage, such as structures, methods, tools and participants. It disappears once the stage ends.
+
+**Links.** Each stage has exactly one previous stage and exactly one next stage, except the first and the last. The outputs of one stage feed the inputs of the next.
+
+**Several previous stages.** If a stage seems to depend on several previous stages, merge them into one combined stage, so the one-previous, one-next rule still holds. Branching can be added later if needed.
