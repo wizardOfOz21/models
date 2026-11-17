@@ -1,0 +1,15 @@
+# Названия
+
+## Название модели
+
+- Модель распространения — Distribution Model.
+
+Альтернативы:
+- Модель публикации — Publication Model.
+- Модель допуска — Clearance Model.
+
+## Статусы
+
+- Можно — Allowed.
+- Нельзя — Disallowed.
+- Неизвестно — Unknown.
