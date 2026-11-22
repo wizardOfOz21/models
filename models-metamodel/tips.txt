@@ -5,6 +5,7 @@
 - model.txt: the model itself, written in Markdown. Required.
 - names.txt: the alternatives for the model's terms. Optional.
 - tips.txt: the implementation tips for that model. Optional.
+- version.txt: the model's version in SemVer format.
 - If a model is complex, like the metamodel of models, you can add variants of the model file, such as a root version or translations into other languages, for example model-ru.txt for Russian.
 - The same layout applies to every model, including this one.
 
@@ -15,9 +16,12 @@ models/
 │ 	├── model.txt
 │ 	├── model-ru.txt
 │ 	├── names.txt
+│ 	├── version.txt
 │ 	└── tips.txt
 ├── stage-metamodel/
 │ 	├── model.txt
+│ 	├── version.txt
 │ 	└── names.txt
 └── request-to-delivery-model/
-	└── model.txt
+	├── model.txt
+	└── version.txt

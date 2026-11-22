@@ -24,4 +24,5 @@ This metamodel is itself a model, so it is described by its own rules: it has a 
 - Store each model in its own folder.
 - Put the definition of the model in model.txt, written in Markdown.
 - Put the actual implementation tips for that model in tips.txt.
+- Keep the model's version in version.txt, using SemVer.
 - The same file layout is used for every model, including this one.
