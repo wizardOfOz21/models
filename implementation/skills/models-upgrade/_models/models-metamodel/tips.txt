@@ -1,0 +1,47 @@
+### Folder and file representation
+- Keep all models together in one models folder, so related models stay close to each other.
+- Give each model its own folder, named after the model, in kebab-case. The wording is free, so use whatever you like.
+- Inside a model's folder, use these files:
+- model.txt: the model itself, written in Markdown. Required.
+- names.txt: the alternatives for the model's terms. Optional.
+- tips.txt: the implementation tips for that model. Optional.
+- version.txt: the model's version in SemVer format, date and user nickname, each on a separate line.
+- If a model is complex, like the metamodel of models, you can add variants of the model file, such as a root version or translations into other languages, for example model-ru.txt for Russian.
+- The same layout applies to every model, including this one.
+
+### Example folder tree
+
+models/
+├── metamodel-of-models/
+│ 	├── model.txt
+│ 	├── model-ru.txt
+│ 	├── names.txt
+│ 	├── version.txt
+│ 	└── tips.txt
+├── stage-metamodel/
+│ 	├── model.txt
+│ 	├── version.txt
+│ 	└── names.txt
+└── request-to-delivery-model/
+	├── model.txt
+	└── version.txt
+
+### Модели, используемые в проекте
+
+Для хранения моделей, используемых в проекте, можно использовать папку _models/ в корне проекта. Модели устанавливаются и хранятся в ней путём копирования. Новые версии устанавливаются вручную, заменой соответствующих копий.
+
+### SemVer
+
+Use semantic versioning for model versions
+
+Файл version.txt содержит три строки: версию, дату и ник пользователя, внесшего изменение. Например:
+
+    v1.5.0
+    24.11.2026
+    g.gasaev
+
+>> Given a version number MAJOR.MINOR.PATCH, increment the:
+>>	1. MAJOR version when you make incompatible API changes
+>>	2. MINOR version when you add functionality in a backward compatible manner
+>>	3. PATCH version when you make backward compatible bug fixes
+>> Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.

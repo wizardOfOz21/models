@@ -5,7 +5,7 @@
 - model.txt: the model itself, written in Markdown. Required.
 - names.txt: the alternatives for the model's terms. Optional.
 - tips.txt: the implementation tips for that model. Optional.
-- version.txt: the model's version in SemVer format.
+- version.txt: the model's version in SemVer format, date and user nickname, each on a separate line.
 - If a model is complex, like the metamodel of models, you can add variants of the model file, such as a root version or translations into other languages, for example model-ru.txt for Russian.
 - The same layout applies to every model, including this one.
 
@@ -33,6 +33,12 @@ models/
 ### SemVer
 
 Use semantic versioning for model versions
+
+Файл version.txt содержит три строки: версию, дату и ник пользователя, внесшего изменение. Например:
+
+    v1.5.0
+    24.11.2026
+    g.gasaev
 
 >> Given a version number MAJOR.MINOR.PATCH, increment the:
 >>	1. MAJOR version when you make incompatible API changes
