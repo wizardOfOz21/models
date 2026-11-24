@@ -1,0 +1,140 @@
+# Версии моделей по проектам
+
+Последняя проверка записей: 2026-11-24 22:27:00 (Москва).
+Поиск: папки _models/ на компьютере; specification/ этого репозитория включена отдельно как хранилище моделей.
+Ограничения: некоторые каталоги недоступны по правам macOS. Реестр содержит фактически прочитанные копии; отсутствие записи не подтверждает отсутствие модели.
+Пути /System/Volumes/Data/Users/... и /Users/... обозначают одни и те же копии и не дублируются.
+Номер версии сам по себе не гарантирует одинакового содержания независимо изменяемых копий.
+Дата и пользователь ниже взяты из version.txt, а не из метаданных файлов.
+
+Проект: /Users/g.gasaev/base/models
+Размещение: локальные копии
+
+Модель: specification-implementation-model
+Путь: /Users/g.gasaev/base/models/_models/specification-implementation-model
+Версия: v0.0.0 | Дата: 24.11.2026 | Пользователь: g.gasaev
+Проверено: 2026-11-24 22:27:00
+
+Проект: /Users/g.gasaev/base/models/implementation/skills/models-upgrade
+Размещение: локальные копии
+
+Модель: models-metamodel
+Путь: /Users/g.gasaev/base/models/implementation/skills/models-upgrade/_models/models-metamodel
+Версия: v1.5.0 | Дата: 24.11.2026 | Пользователь: g.gasaev
+Проверено: 2026-11-24 22:27:00
+
+Проект: /Users/g.gasaev/tasks/max-recovery
+Размещение: локальные копии
+
+Модель: request-to-delivery-model
+Путь: /Users/g.gasaev/tasks/max-recovery/_models/request-to-delivery-model
+Версия: v1.0.0 | Дата: 14.11.2026 | Пользователь: не указан
+Проверено: 2026-11-24 22:27:00
+
+Модель: sources-model
+Путь: /Users/g.gasaev/tasks/max-recovery/_models/sources-model
+Версия: v1.2.1 | Дата: 24.11.2026 | Пользователь: не указан
+Проверено: 2026-11-24 22:27:00
+
+Проект: /Users/g.gasaev/tasks/cdn-off
+Размещение: локальные копии
+
+Модель: models-metamodel
+Путь: /Users/g.gasaev/tasks/cdn-off/_models/models-metamodel
+Версия: v1.3.1 | Дата: 24.11.2026 | Пользователь: не указан
+Проверено: 2026-11-24 22:27:00
+
+Модель: sources-model
+Путь: /Users/g.gasaev/tasks/cdn-off/_models/sources-model
+Версия: v1.6.0 | Дата: 24.11.2026 | Пользователь: не указан
+Проверено: 2026-11-24 22:27:00
+
+Проект: /Users/g.gasaev/_personal/mirea/discmath/mirea-discrete-math
+Размещение: локальные копии
+
+Модель: existence-specification-computation-model
+Путь: /Users/g.gasaev/_personal/mirea/discmath/mirea-discrete-math/_models/existence-specification-computation-model
+Версия: v1.0.0 | Дата: 16.11.2026 | Пользователь: не указан
+Проверено: 2026-11-24 22:27:00
+
+Модель: request-to-delivery-model
+Путь: /Users/g.gasaev/_personal/mirea/discmath/mirea-discrete-math/_models/request-to-delivery-model
+Версия: v1.0.0 | Дата: 14.11.2026 | Пользователь: не указан
+Проверено: 2026-11-24 22:27:00
+
+Модель: sources-model
+Путь: /Users/g.gasaev/_personal/mirea/discmath/mirea-discrete-math/_models/sources-model
+Версия: v1.6.0 | Дата: 24.11.2026 | Пользователь: не указан
+Проверено: 2026-11-24 22:27:00
+
+Проект: /Users/g.gasaev/_personal/mirea/ai-bigdata/mirea-ai-bigdata-2/information
+Размещение: локальные копии
+
+Модель: distribution-model
+Путь: /Users/g.gasaev/_personal/mirea/ai-bigdata/mirea-ai-bigdata-2/information/_models/distribution-model
+Версия: v1.0.0 | Дата: 17.11.2026 | Пользователь: не указан
+Проверено: 2026-11-24 22:27:00
+Примечание из version.txt: ai-slop version
+
+Проект: /Users/g.gasaev/_personal/mirea/ai-bigdata/mirea-ai-bigdata-2/exam
+Размещение: локальные копии
+
+Модель: request-to-delivery-model
+Путь: /Users/g.gasaev/_personal/mirea/ai-bigdata/mirea-ai-bigdata-2/exam/_models/request-to-delivery-model
+Версия: v1.0.0 | Дата: 14.11.2026 | Пользователь: не указан
+Проверено: 2026-11-24 22:27:00
+
+Проект: /Users/g.gasaev/_personal/mirea/ai-bigdata/mirea-ai-bigdata-3/information
+Размещение: локальные копии
+
+Модель: distribution-model
+Путь: /Users/g.gasaev/_personal/mirea/ai-bigdata/mirea-ai-bigdata-3/information/_models/distribution-model
+Версия: v1.0.0 | Дата: 17.11.2026 | Пользователь: не указан
+Проверено: 2026-11-24 22:27:00
+Примечание из version.txt: ai-slop version
+
+Проект: /Users/g.gasaev/_personal/mirea/ai-bigdata/mirea-ai-bigdata-3/exam
+Размещение: локальные копии
+
+Модель: request-to-delivery-model
+Путь: /Users/g.gasaev/_personal/mirea/ai-bigdata/mirea-ai-bigdata-3/exam/_models/request-to-delivery-model
+Версия: v1.0.0 | Дата: 14.11.2026 | Пользователь: не указан
+Проверено: 2026-11-24 22:27:00
+
+Проект: /Users/g.gasaev/base/models
+Размещение: хранилище моделей
+
+Модель: distribution-model
+Путь: /Users/g.gasaev/base/models/specification/distribution-model
+Версия: v1.0.0 | Дата: 17.11.2026 | Пользователь: g.gasaev
+Проверено: 2026-11-24 22:27:00
+
+Модель: existence-specification-computation-model
+Путь: /Users/g.gasaev/base/models/specification/existence-specification-computation-model
+Версия: v1.0.0 | Дата: 16.11.2026 | Пользователь: g.gasaev
+Проверено: 2026-11-24 22:27:00
+
+Модель: models-metamodel
+Путь: /Users/g.gasaev/base/models/specification/models-metamodel
+Версия: v1.5.0 | Дата: 24.11.2026 | Пользователь: g.gasaev
+Проверено: 2026-11-24 22:27:00
+
+Модель: request-to-delivery-model
+Путь: /Users/g.gasaev/base/models/specification/request-to-delivery-model
+Версия: v1.0.0 | Дата: 14.11.2026 | Пользователь: g.gasaev
+Проверено: 2026-11-24 22:27:00
+
+Модель: sources-model
+Путь: /Users/g.gasaev/base/models/specification/sources-model
+Версия: v1.6.0 | Дата: 24.11.2026 | Пользователь: g.gasaev
+Проверено: 2026-11-24 22:27:00
+
+Модель: specification-implementation-model
+Путь: /Users/g.gasaev/base/models/specification/specification-implementation-model
+Версия: v0.0.0 | Дата: 24.11.2026 | Пользователь: g.gasaev
+Проверено: 2026-11-24 22:27:00
+
+Модель: stage-metamodel
+Путь: /Users/g.gasaev/base/models/specification/stage-metamodel
+Версия: v1.0.0 | Дата: 14.11.2026 | Пользователь: g.gasaev
+Проверено: 2026-11-24 22:27:00
